@@ -11,7 +11,7 @@ Email: ${email}<br>
 Telefone: ${telefone}
 `;
 
-document.getElementById('mensagem-confirmacao').innerHTML = mensagem;
+document.getElementById('mensagem-confirmacao').innerText = mensagem;
 
 }
 
