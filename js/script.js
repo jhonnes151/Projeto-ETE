@@ -34,3 +34,4 @@ function mostrarImagemCachorro() {
 }
 
 mostrarImagemCachorro()
+mostrarFatoGato()
