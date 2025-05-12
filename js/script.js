@@ -7,8 +7,8 @@ function enviarFormulario(event) {
     const mensagem = `
     Dados enviados com sucesso! <br>
 Nome: ${nome}<br>
-Nome: ${email}<br>
-Nome: ${telefone}
+Email: ${email}<br>
+Telefone: ${telefone}
 `;
 
 document.getElementById('mensagem-confirmacao').innerHTML = mensagem;
@@ -34,4 +34,3 @@ function mostrarImagemCachorro() {
 }
 
 mostrarImagemCachorro()
-mostrarFatoGato()
