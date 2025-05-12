@@ -12,7 +12,7 @@ Telefone: ${telefone}
 `;
 
 document.getElementById('mensagem-confirmacao').innerText = mensagem;
-
+document.getElementById('form-contato').reset();
 }
 
 function mostrarFatoGato() {
